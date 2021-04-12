@@ -1,0 +1,4 @@
+<div ng-repeat="options in ques.optionsStack" >
+	<label for="{{ ques.questionNumber }}-{{$index}}">{{options.option}}</label>
+	<input type="checkbox" name="{{ ques.questionNumber }}-{{$index}}" id="{{ ques.questionNumber }}-{{$index}}" value="{{options.option}}" />
+</div>

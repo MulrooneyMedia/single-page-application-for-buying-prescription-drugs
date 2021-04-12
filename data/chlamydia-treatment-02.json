@@ -1,0 +1,51 @@
+[{
+	"qType": "radiosReact",
+	"question": "Do you have any conditions affecting your kidneys, liver or heart rhythm?",
+	"questionNumber": "Q3",
+	"consequence": "Q3.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please provide more details.",
+	"questionNumber": "Q3.1",
+	"visibility": "hide" 	
+},{
+	"qType": "radiosReact",
+	"question": "Do you have any other medical conditions or have you had any recent major surgery?",
+	"questionNumber": "Q4",
+	"consequence": "Q4.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please provide more details.",
+	"questionNumber": "Q4.1",
+	"visibility": "hide" 	
+},{
+	"qType": "radiosReact",
+	"question": "Do you take any regular prescription medication or over the counter medications?",
+	"questionNumber": "Q5",
+	"consequence": "Q5.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please provide more details.",
+	"questionNumber": "Q5.1",
+	"visibility": "hide" 	
+},{
+	"qType": "radiosReact",
+	"question": "Are you allergic to any medication or other substances?",
+	"questionNumber": "Q6",
+	"consequence": "Q6.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please provide more details.",
+	"questionNumber": "Q6.1",
+	"visibility": "hide" 	
+},{
+	"qType": "radiosReact",
+	"question": "Are you currently breastfeeding, pregnant or actively trying for a baby?",
+	"questionNumber": "Q7",
+	"consequence": "Q7.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please provide more details.",
+	"questionNumber": "Q7.1",
+	"visibility": "hide" 	
+}]

@@ -1,0 +1,85 @@
+[{
+	"qType": "selectbox",
+	"question": "Have you had unprotected sex in the last 5 days?",
+	"optionsStack": [ {"option": "No","oc": false}, {"option": "Yes","oc": true}, {"option": "Yes, and I have already taken an emergency contraception afterwards","oc": true} ],
+	"questionNumber": "Q1",
+	"consequence": "Q1.1"
+},{
+	"qType": "textbox",
+	"question": "What day and time did that happen?",
+	"questionNumber": "Q1.1",
+	"visibility": "hide"
+},{
+	"qType": "radiosReact",
+	"question": "Have you ever taken an emergency contraception before?",
+	"questionNumber": "Q2",
+	"consequence": "Q2.1"
+},{
+	"qType": "textbox",
+	"question": "Please provide more details. Did you have any side effects such as nausea, rash, etc.?",
+	"questionNumber": "Q2.1",
+	"visibility": "hide"
+},{
+	"qType": "radiosReact",
+	"question": "Do you have any allergies?",
+	"questionNumber": "Q3",
+	"consequence": "Q3.1"
+},{
+	"qType": "textbox",
+	"question": "Please provide further details.",
+	"questionNumber": "Q3.1",
+	"visibility": "hide"
+},{
+	"qType": "radiosReact",
+	"question": "Do you have any other health problems or conditions that you think we should know about? (e.g. liver disease, mental illness etc.)",
+	"questionNumber": "Q4",
+	"consequence": "Q4.1"
+},{
+	"qType": "textbox",
+	"question": "Please provide further details (if you take a regular treatment, please let us know).",
+	"questionNumber": "Q4.1",
+	"visibility": "hide"
+},{
+	"qType": "radiosReact",
+	"question": "Are you currently taking any medication, or have you recently finished a course of medication?",
+	"questionNumber": "Q5",
+	"consequence": "Q5.1"
+},{
+	"qType": "textbox",
+	"question": "Please list all medication you are currently taking.",
+	"questionNumber": "Q5.1",
+	"visibility": "hide"
+},{
+	"qType": "height",
+	"question": "Can you tell us your height?",
+	"questionNumber": "Q6"
+},{
+	"qType": "weight",
+	"question": "Can you tell us your current weight?",
+	"questionNumber": "Q7"
+},{
+	"qType": "checkbox",
+	"question": "Please note that a weight of more than 70kg or BMI above 26 could reduce Levonelle’s ability to prevent pregnancy and a weight of more than 85kg or BMI above 30 could reduce EllaOne's ability to prevent pregnancy. Please tick to confirm that you understand this and are proceeding with your request.",
+	"questionNumber": "Q8"
+},{
+	"qType": "radios",
+	"question": "Are you currently breastfeeding?",
+	"questionNumber": "Q9"
+},{
+	"qType": "checkbox",
+	"question": "I know that the emergency contraception should not be taken if I am already pregnant",
+	"questionNumber": "Q10"
+},{
+	"qType": "checkbox",
+	"question": "Emergency contraception tablets are for emergency use only and should be taken as soon as possible after the unprotected sex happened. It is NOT an ongoing contraception and does not protect you from sexually transmitted infections",
+	"questionNumber": "Q11"
+},{
+	"qType": "bmi",
+	"question": "The patient's BMI or weight was too high for Levonelle",
+	"questionNumber": "Q12"
+},{
+	"qType": "bmi",
+	"question": "The patient's BMI or weight was too high for EllaOne",
+	"questionNumber": "Q13"
+}
+]

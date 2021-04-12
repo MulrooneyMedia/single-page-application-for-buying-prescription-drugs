@@ -1,0 +1,57 @@
+[{
+	"image":"hairloss_chart340.gif",
+	"qType": "selectbox",
+	"question": "Please select which of the images below best represents your hair loss.",
+	"optionsStack": [ {"option": "A","oc": false}, {"option": "B","oc": false}, {"option": "C","oc": false}, {"option": "D","oc": false}, {"option": "E","oc": false}, {"option": "Other/no pattern fits well","oc": true} ],
+	"questionNumber": "Q1",
+	"consequence": "Q1.1" 	
+},{
+	"qType": "upload",
+	"question": "Please upload a photo showing your pattern of hair loss.",
+	"questionNumber": "Q1.1",
+	"visibility": "hide" 	
+},{
+	"qType": "selectbox",
+	"question": "When did you first notice any hair loss?",
+	"optionsStack": [ {"option": "In the last month"}, {"option": "More than a month ago"} ],
+	"questionNumber": "Q2"
+},{
+	"qType": "selectbox",
+	"question": "How did your hair loss start?",
+	"optionsStack": [ {"option": "Suddenly","oc": true}, {"option": "Gradually (over months)","oc": false} ],
+	"questionNumber": "Q3",
+	"consequence": "Q3.1" 	
+},{
+	"qType": "textboxWithLink",
+	"question": "How long have you been losing hair for (days, weeks, months or years)? Do you think it could be due to any",
+	"destination":"https://www.nhs.uk/conditions/hair-loss/",
+	"targetText":"other causes",
+	"questionPart2": "?",
+	"questionNumber": "Q3.1",
+	"visibility": "hide" 	
+},{
+	"qType": "radiosReact",
+	"question": "Have you noticed any new changes to your scalp? (Eg redness, itching, flaking or soreness)",
+	"questionNumber": "Q4",
+	"consequence": "Q4.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please describe the changes to your scalp and whether you feel these could be related to your hair loss.",
+	"questionNumber": "Q4.1",
+	"visibility": "hide" 	
+},{
+	"qType": "selectbox",
+	"question": "Have you been diagnosed with Androgenic Alopecia (Male Pattern Baldness)?",
+	"optionsStack": [ {"option": "Yes, by my GP"}, {"option": "Yes, by a Specialist"}, {"option": "No - self-diagnosed"} ],
+	"questionNumber": "Q5"
+},{
+	"qType": "radiosReact",
+	"question": "Have you taken Finasteride/Propecia for your hair loss before?",
+	"questionNumber": "Q6",
+	"consequence": "Q6.1" 	
+},{
+	"qType": "textbox",
+	"question": "Was it effective? Did you have any side effects?",
+	"questionNumber": "Q6.1",
+	"visibility": "hide" 	
+}]

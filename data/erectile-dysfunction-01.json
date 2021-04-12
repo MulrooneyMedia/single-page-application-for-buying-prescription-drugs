@@ -1,0 +1,25 @@
+[{
+	"qType": "radios",
+	"question": "Can you always get and maintain an erection when you want one?",
+	"questionNumber": "Q1"
+},{
+	"qType": "selectbox",
+	"question": "When you get an erection, how often is it hard enough to enter your partner?",
+	"optionsStack": [ {"option": "Rarely or never"}, {"option": "Sometimes"}, {"option": "Always or almost always"} ],
+	"questionNumber": "Q2"
+},{
+	"qType": "selectbox",
+	"question": "During sex, how often are you able to keep your erection after you have entered your partner?",
+	"optionsStack": [ {"option": "Rarely or never"}, {"option": "Sometimes"}, {"option": "Always or almost always"} ],
+	"questionNumber": "Q3"
+},{
+	"qType": "radiosReact",
+	"question": "Have you used any erectile dysfunction medication before?",
+	"questionNumber": "Q4",
+	"consequence": "Q4.1" 
+},{
+	"qType": "textbox",
+	"question": "Please tell us which medications you have tried, in which doses and whether they caused you any side effects.",
+	"questionNumber": "Q4.1",
+	"visibility": "hide" 
+}]

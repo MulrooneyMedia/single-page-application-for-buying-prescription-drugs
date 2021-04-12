@@ -1,0 +1,53 @@
+[{
+	"qType": "height",
+	"question": "Can you tell us your height?",
+	"questionNumber": "Q9"
+},{
+	"qType": "weight",
+	"question": "Can you tell us your current weight?",
+	"questionNumber": "Q10"
+},{
+	"qType": "checkbox",
+	"question": "Please note that a weight of more than 85kg, or BMI above 30, could reduce EllaOne's ability to prevent pregnancy. In these cases a better option would be the copper IUD (intrauterine device). Please tick to confirm that you understand this and are proceeding with your request for EllaOne.",
+	"questionNumber": "Q11"
+},{
+	"qType": "radiosReact",
+	"question": "Are you currently breastfeeding?",
+	"questionNumber": "Q12",
+	"consequence": "Q12.1" 	
+},{
+	"qType": "textbox",
+	"question": "How often do you breastfeed?",
+	"questionNumber": "Q12.1",
+	"visibility": "hide" 	
+},{
+	"qType": "radiosReact",
+	"question": "Are you currently taking any medication, or have you recently finished a course of medication?",
+	"questionNumber": "Q13",
+	"consequence": "Q13.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please list all medication you are currently taking.",
+	"questionNumber": "Q13.1",
+	"visibility": "hide" 	
+},{
+	"qType": "radiosReact",
+	"question": "Do you have any allergies?",
+	"questionNumber": "Q14",
+	"consequence": "Q14.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please provide further details.",
+	"questionNumber": "Q14.1",
+	"visibility": "hide" 	
+},{
+	"qType": "radiosReact",
+	"question": "Do you have any other health problems or conditions that you think we should know about? (e.g. liver disease, mental illness etc.)",
+	"questionNumber": "Q15",
+	"consequence": "Q15.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please provide further details (if you take a regular treatment, please let us know).",
+	"questionNumber": "Q15.1",
+	"visibility": "hide" 	
+}]

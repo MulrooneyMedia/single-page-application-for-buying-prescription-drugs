@@ -1,0 +1,20 @@
+[{
+	"qType": "checkbox",
+	"question": "I confirm and agree that any treatment prescribed for me is for my personal use only.",
+	"questionNumber": "Q15"
+},{
+	"qType": "checkboxTerms",
+	"destination1":"https://onlinedoctor.superdrug.com/terms.html",
+	"destination2":"https://onlinedoctor.superdrug.com/privacy.html",
+	"questionNumber": "Q16"
+},{
+	"qType": "radiosReact",
+	"question": "Communication between doctors involved in your treatment helps provide the safest and most effective healthcare. Are you happy for us to inform your GP about this treatment?",
+	"questionNumber": "Q17",
+	"consequence": "Q17.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please provide us with the contact details of your GP, in particular their name and fax number (name, house number, street, town, postcode, fax number).",
+	"questionNumber": "Q17.1",
+	"visibility": "hide" 	
+}]

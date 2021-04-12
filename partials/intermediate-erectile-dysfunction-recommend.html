@@ -1,0 +1,83 @@
+<div id="chooseTreatment" class="staticPages treatments hide">
+
+    <div class="row">
+        <header class="steps-navigation qa-steps-navigation steps-navigation-push-down">
+            <div class="title assessmentHeader"></div>
+            <ol class="stepslist">
+                <li class="stepitem steps">Assessment<br><small></small></li>
+                <li class="stepitem -active">Choose treatment</li>
+                <li class="stepitem">Your Order</li>
+                <li class="stepitem">Payment</li>
+            </ol>
+        </header>
+    </div>
+
+    <div class="delivery-header"><span>Delivery options</span></div>
+    <hr>
+    <div class="row">
+        <div class="col-xs-6 col-sm-3 ng-scope col-xs-push-6 col-sm-push-9">
+            <a href="#" onclick="confirmTreatment()" class="bs2 btn btn-success btn-block">Order</a>
+        </div>
+        <div class="col-xs-6 col-sm-2 col-xs-pull-6 col-sm-pull-3 btnSize">
+            <!--a href="#" onclick="confirmTreatment()" class="bs2 btn btn-default btn-block">Back</a-->
+        </div>
+    </div>
+</div>
+
+<div id="reviewConfirmation" class="staticPages">
+
+        <h3 class="thankyou-title"><img width="35" height="35" alt="" src="assets/images/icon-tick.svg"> Assessment Complete!</h3>
+        <p>Thanks for giving us the information we need to assess your condition.</p>
+        <ul class="thankyou-options">
+            <li class="doctor"><img class="thankyou-icon" width="35" height="35" alt="" src="assets/images/icon-doctor.svg">
+                <div translate="">What now?</div>
+                <div translate="">Now one of our doctors will analyse your answers to decide how we can help you.</div>
+            </li>
+            <li class="envelope"><img class="thankyou-icon"width="35" height="35" alt="" src="assets/images/icon-envelop.svg">
+                <div translate="">What's next?</div>
+                <div translate="">Keep an eye out for a doctor response in your email inbox, or patient account, as we’ll contact you soon.</div>
+            </li>
+        </ul>
+        <a href="#" onclick="toggleIntermediatePages()" class="viewAssessment" style="top: 40px;">View Assessment Outcome <i class="fa fa-angle-right"></i></a>
+
+
+    <!--div class="benefits-header"><span>
+      <ul>
+        <li>A Brand You Can Trust</li>
+        <li>Save Time &amp; Embarrassment</li>
+        <li>Complete Confidentiality</li>
+        <li>FREE Fast Delivery</li>
+      </ul>
+    </span></div>
+    <h1>Thank you for your order</h1>
+    <a href="#" onclick="toggleIntermediatePages()" class="viewAssessment">View Assessment Outcome <i class="fas fa-chevron-right"></i></a>
+    <p>We have sent you an email confirmation.</p>
+    <img src="assets/images/treatments/green-round-tick.png" />
+
+    <a href="#" onclick="toggleIntermediatePages()" class="viewAssessment">View Assessment Outcome <i class="fa fa-angle-right"></i></a>
+
+    <h2>What happens next?</h2>
+    <img src="assets/images/treatments/what-happens-next.png" /-->
+    <hr>
+    <div class="row">
+        <div class="col-xs-6 col-sm-3 ng-scope col-xs-push-6 col-sm-push-9">
+            <a href="#" onclick="toggleIntermediatePages()" class="bs2 btn btn-success btn-block">View assessment</a>
+        </div>
+        <div class="col-xs-6 col-sm-2 col-xs-pull-6 col-sm-pull-3 btnSize">
+            <!--a href="#" onclick="confirmTreatment()" class="bs2 btn btn-default btn-block">Back</a-->
+        </div>
+    </div>
+</div>
+<div id="telephoneConsultation" class="staticPages phoneConsultation hide">
+    <div ng-include src="'partials/telephone-consultation.html'" ></div>
+
+    <div class="row">
+        <div class="col-xs-6 col-sm-3 ng-scope col-xs-push-6 col-sm-push-9">
+            <!--a href="#" onclick="toggleIntermediatePages()" class="bs2 btn btn-success btn-block">Complete order</a-->
+        </div>
+        <div class="col-xs-6 col-sm-2 col-xs-pull-6 col-sm-pull-3 btnSize">
+            <a href="#" onclick="confirmTreatment('backFromTelephoneConsultation')" class="bs2 btn btn-default btn-block">Back</a>
+        </div>
+    </div>
+</div>
+<script type="text/javascript-lazy" src="scripts/script.js"></script>

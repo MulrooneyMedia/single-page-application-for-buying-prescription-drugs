@@ -1,0 +1,30 @@
+[{
+	"qType": "radiosReact",
+	"question": "It is important that you contact your sexual partner(s) to let them know that they may have caught chlamydia. Would you like us to help you contact partners anonymously?",
+	"questionNumber": "Q8",
+	"consequence": "Q8.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please enter the name and mobile phone number of any partners that you would like us to contact regarding possible infection with Gonorrhoea or Chlamydia. Your identity will be kept confidential at all times.",
+	"questionNumber": "Q8.1",
+	"visibility": "hide" 	
+},{
+	"qType": "radiosReact",
+	"question": "Communication between doctors involved in your treatment helps provide the safest and most effective healthcare. Are you happy for us to inform your GP about this treatment?",
+	"questionNumber": "Q9",
+	"consequence": "Q9.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please provide us with the contact details of your GP, in particular their name and fax number (name, house number, street, town, postcode, fax number).",
+	"questionNumber": "Q9.1",
+	"visibility": "hide" 	
+},{
+	"qType": "checkbox",
+	"question": "I confirm and agree that any treatment prescribed for me is for my personal use only.",
+	"questionNumber": "Q10"
+},{
+	"qType": "checkboxTerms",
+	"destination1":"https://onlinedoctor.superdrug.com/terms.html",
+	"destination2":"https://onlinedoctor.superdrug.com/privacy.html",
+	"questionNumber": "Q11"
+}]

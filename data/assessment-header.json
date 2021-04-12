@@ -1,0 +1,45 @@
+[{
+    "assessmentId": "E-D",
+	"headline": "Order Viagra®, Cialis® or other treatments for erectile dysfunction",
+	"timeline": "Average time to complete this questionnaire = 3 minutes."
+},{
+    "assessmentId": "E-D-R",
+	"headline": "Get a doctor to recommend a treatment for Erectile Dysfunction",
+	"timeline": "Average time to complete this questionnaire = 3 minutes."
+},{
+    "assessmentId": "Chl",
+	"headline": "Order Antibiotics For Fast, Effective Treatment Of Chlamydia",
+	"timeline": "Average time to complete this questionnaire = 3 minutes."
+},{
+    "assessmentId": "C-P-3",
+	"headline": "Choose from all UK brands including Microgynon® & Yasmin®",
+	"timeline": "Average time to complete this questionnaire = 3 minutes."
+},{
+    "assessmentId": "C-P-6",
+	"headline": "Choose from all UK brands including Microgynon® & Yasmin®",
+	"timeline": "Average time to complete this questionnaire = 4 minutes."
+},{
+    "assessmentId": "H-L",
+	"headline": "Order Propecia® or Finasteride To Stop Hair Loss. Fast.",
+	"timeline": "Average time to complete questionnaire = 4 minutes."
+},{
+    "assessmentId": "Herpes",
+	"headline": "Order Aciclovir or Valaciclovir for Treatment Of Genital Herpes",
+	"timeline": "Average time to complete questionnaire = 3 minutes"
+},{
+    "assessmentId": "He-Su",
+	"headline": "Suppressive therapy for genital herpes - Order Aciclovir or Valaciclovir",
+	"timeline": "Purchase this treatment if you are experiencing frequent or severe outbreaks."
+},{
+    "assessmentId": "M-A-P-E-O",
+	"headline": "Emergency Contraceptive Pill EllaOne - Next Day Delivery",
+	"timeline": "IMPORTANT: Orders received AFTER 4PM will be sent out the NEXT WORKING DAY (Mon-Fri). Due to delays in the post, we do not recommend using this service if you live outside of mainland UK or in the Scottish Highlands."
+},{
+    "assessmentId": "M-A-P-L",
+	"headline": "Emergency Contraceptive Pill - Order Levonelle®. Rapid Next Day Delivery.",
+	"timeline": "IMPORTANT: Orders received AFTER 4PM will be sent out the NEXT WORKING DAY (Mon-Fri)"
+},{
+    "assessmentId": "M-A-P-F-U",
+	"headline": "Emergency contraception in advance of need",
+	"timeline": "Contraceptive mishaps happen - be prepared"
+}]

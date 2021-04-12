@@ -1,0 +1,125 @@
+<div id="chooseTreatment" class="staticPages treatments">
+
+    <div class="row">
+        <header class="steps-navigation qa-steps-navigation steps-navigation-push-down">
+            <div class="title assessmentHeader"></div>
+            <ol class="stepslist">
+                <li class="stepitem steps">Assessment<br><small></small></li>
+                <li class="stepitem -active">Choose treatment</li>
+                <li class="stepitem">Your Order</li>
+                <li class="stepitem">Payment</li>
+            </ol>
+        </header>
+    </div>            
+          
+    <div class="delivery-header"><span>Delivery options</span></div>
+    <h1>Choose treatment</h1>
+    <p class="treatmentSubhead">Our doctors recommend using Doxycycline to treat Chlamydia infection</p>
+    <div class="product-chooser">
+        <table class="table table-recommend">
+            <tbody>
+                <tr class="product-row">
+                    <td class="selector">
+                        <input name="selected" class="qa-select-product" type="radio">
+                    </td>
+                    <td class="name"><span class="name"><!--i class="fa fa-info-circle text-success info"></i--> <span>Doxycycline treatment</span>
+                        <div class="small">100mg - One Week Course (14 capsules)</div>
+                        </span>
+                    </td>
+                    <td class="cta">
+                            <a href="#" onclick="confirmTreatment()" class="bs2 btn btn-success btn-order">Order</a>
+                    </td>
+                    <td class="price">
+                        <span class="price">£16.00</span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="table table-greyBg">
+            <tbody>
+                <tr class="product-row">
+                    <td class="selector">
+                        <input name="selected" class="qa-select-product" type="radio">
+                    </td>
+                    <td class="name"><span class="name"><!--i class="fa fa-info-circle text-success info"></i--> <span>Azithromycin</span>
+                        <div class="small">500mg - Single Course (2 tablets)</div>
+                        </span>
+                    </td>
+                    <td class="cta">
+                            <a href="#" onclick="confirmTreatment()" class="bs2 btn btn-success btn-order">Order</a>
+                    </td>
+                    <td class="price">
+                        <span class="price">£27.50</span>
+                    </td>
+                </tr>
+                <tr class="product-row">
+                        <td class="selector">
+                            <input name="selected" class="qa-select-product" type="radio">
+                        </td>
+                        <td class="name"><span class="name"><!--i class="fa fa-info-circle text-success info"></i--> <span>Doxycycline treatment</span>
+                            <div class="small">100mg - One Week Course (14 capsules)</div>
+                            </span>
+                        </td>
+                        <td class="cta">
+                                <a href="#" onclick="confirmTreatment()" class="bs2 btn btn-success btn-order">Order</a>
+                        </td>
+                        <td class="price">
+                            <span class="price">£16.00</span>
+                        </td>
+                </tr>
+                <tr class="product-row">
+                    <td class="selector">
+                        <input id="radioPhone" name="selected" class="qa-select-product" type="radio">
+                    </td>
+                    <td class="name"><span class="name"><!--i class="fa fa-info-circle text-success info"></i--> <span>Telephone Consultation with a Doctor (does not include prescription medication): Available 4-5pm Tues, Wed, Thurs</span>
+                        <div class="small">(Only Phone consultation)</div>
+                        </span>
+                    </td>
+                    <td class="cta">
+                            <a href="#" onclick="confirmTreatment()" class="bs2 btn btn-success btn-order">Order</a>
+                    </td>
+                    <td class="price">
+                        <span class="price">£20.00</span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-xs-6 col-sm-3 ng-scope col-xs-push-6 col-sm-push-9">
+                <a href="#" onclick="confirmTreatment()" class="bs2 btn btn-success btn-block">Order</a>
+        </div>
+        <div class="col-xs-6 col-sm-2 col-xs-pull-6 col-sm-pull-3 btnSize">
+            <!--a href="#" onclick="confirmTreatment()" class="bs2 btn btn-default btn-block">Back</a-->
+        </div>
+    </div>
+</div>
+
+<div id="reviewConfirmation" class="staticPages thankYou hide">
+    <div ng-include src="'partials/thank-you.html'" ></div>
+    
+    <div class="row">
+        <div class="col-xs-6 col-sm-3 ng-scope col-xs-push-6 col-sm-push-9">
+            <a href="#" onclick="toggleIntermediatePages()" class="bs2 btn btn-success btn-block">Complete order</a>
+        </div>
+        <div class="col-xs-6 col-sm-2 col-xs-pull-6 col-sm-pull-3 btnSize">
+            <a href="#" onclick="confirmTreatment('backFromReviewConfirmation')" class="bs2 btn btn-default btn-block">Back</a>
+        </div>
+    </div>
+</div>
+
+<div id="telephoneConsultation" class="staticPages phoneConsultation hide">
+        <div ng-include src="'partials/telephone-consultation.html'" ></div>
+    
+        <div class="row">
+            <div class="col-xs-6 col-sm-3 ng-scope col-xs-push-6 col-sm-push-9">
+                <!--a href="#" onclick="toggleIntermediatePages()" class="bs2 btn btn-success btn-block">Complete order</a-->
+            </div>
+            <div class="col-xs-6 col-sm-2 col-xs-pull-6 col-sm-pull-3 btnSize">
+                <a href="#" onclick="confirmTreatment('backFromTelephoneConsultation')" class="bs2 btn btn-default btn-block">Back</a>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript-lazy" src="scripts/script.js"></script>

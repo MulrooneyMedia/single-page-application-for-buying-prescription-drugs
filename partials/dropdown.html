@@ -1,0 +1,6 @@
+<select class="form-control qa-questionnaire-dropdown " id="{{ ques.questionNumber }}" name="" required="" ng-model="item" ng-change="reveal( ques.consequence, false, item ); formInputChange($event);">
+	<option selected="selected" value="" ng-disabled="true" disabled="disabled"><span class="ng-scope">Select...</span></option>
+	<option ng-repeat="options in ques.optionsStack" value="{{options.option}} reveal={{options.oc}}" data-trigger="{{options.oc}}">
+		{{options.option}}
+	</option>
+</select>

@@ -1,0 +1,61 @@
+[{
+	"qType": "radiosReact",
+	"question": "Are you currently pregnant or breastfeeding?",
+	"questionNumber": "Q5",
+	"consequence": "Q5.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please provide more details.",
+	"questionNumber": "Q5.1",
+	"visibility": "hide" 	
+},{
+	"qType": "radiosReact",
+	"question": "Are you actively trying to get pregnant?",
+	"questionNumber": "Q6",
+	"consequence": "Q6.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please provide more details.",
+	"questionNumber": "Q6.1",
+	"visibility": "hide" 	
+},{
+	"qType": "radiosReact",
+	"question": "Are you currently taking any medication, or have you recently finished a course of medication?",
+	"questionNumber": "Q7",
+	"consequence": "Q7.1" 	
+},{
+	"qType": "textbox",
+	"question": "What is the name of the medication? Why do you take it?",
+	"questionNumber": "Q7.1",
+	"visibility": "hide" 	
+},{
+	"qType": "radiosReact",
+	"question": "Are you allergic to any medicines or other substances (e.g peanuts/soya)?",
+	"questionNumber": "Q8",
+	"consequence": "Q8.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please provide more details.",
+	"questionNumber": "Q8.1",
+	"visibility": "hide" 	
+},{
+	"qType": "radiosReact",
+	"question": "Do you have any conditions affecting your kidneys, urinary system or kidney function?",
+	"questionNumber": "Q9",
+	"consequence": "Q9.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please provide more details.",
+	"questionNumber": "Q9.1",
+	"visibility": "hide" 	
+},{
+	"qType": "radiosReact",
+	"question": "Do you have any other medical conditions (for example, HIV or liver disease)?",
+	"questionNumber": "Q10",
+	"consequence": "Q10.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please provide more details.",
+	"questionNumber": "Q10.1",
+	"visibility": "hide" 	
+}]

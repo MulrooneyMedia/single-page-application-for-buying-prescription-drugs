@@ -1,0 +1,38 @@
+[{
+	"qType": "selectbox",
+	"question": "Who first diagnosed you with herpes?",
+	"optionsStack": [ {"option": "My GP","oc": false}, {"option": "Nurse or doctor at GUM clinic","oc": false}, {"option": "Self-diagnosed","oc": true} ],
+	"questionNumber": "Q1",
+	"consequence": "Q1.1" 	
+},{
+	"qType": "upload",
+	"question": "Please upload a picture of the affected area. Please ensure that it is in focus.",
+	"questionNumber": "Q1.1",
+	"visibility": "hide" 	
+},{
+	"qType": "selectbox",
+	"question": "How often have you experienced herpes outbreaks in the past year?",
+	"optionsStack": [ {"option": "Less than 6 times"}, {"option": "6 times or more"} ],
+	"questionNumber": "Q2"
+},{
+	"qType": "radiosReact",
+	"question": "Have you taken tablets for herpes in the past?",
+	"questionNumber": "Q3",
+	"consequence": "Q3.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please provide further details: which medication did you take? Did you experience any side effects?",
+	"questionNumber": "Q3.1",
+	"visibility": "hide" 	
+},{
+	"qType": "selectbox",
+	"question": "If you've had an outbreak before, did it clear up after treatment?",
+	"optionsStack": [ {"option": "This is my first outbreak","oc": false}, {"option": "Yes, it cleared up","oc": false}, {"option": "No, it did not","oc": true} ],
+	"questionNumber": "Q4",
+	"consequence": "Q4.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please provide more details.",
+	"questionNumber": "Q4.1",
+	"visibility": "hide" 	
+}]

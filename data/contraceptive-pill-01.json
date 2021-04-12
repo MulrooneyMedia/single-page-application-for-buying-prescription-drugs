@@ -1,0 +1,53 @@
+[{
+	"qType": "radiosReact2",
+	"question": "Are you currently taking a contraceptive pill?",
+	"questionNumber": "Q1",
+	"consequenceYes": "Q1.1", 	
+	"consequenceNo": "Q1.2" 	
+},{
+	"qType": "textbox",
+	"question": "What is the name of the pill you are taking?",
+	"questionNumber": "Q1.1",
+	"visibility": "hide" 	
+},{
+	"qType": "radiosReact",
+	"question": "Have you taken the pill in the last 12 months?",
+	"questionNumber": "Q1.2",
+	"consequence": "Q1.2.1",	
+	"visibility": "hide"
+},{
+	"qType": "textbox",
+	"question": "What is the name of the pill you took?",
+	"questionNumber": "Q1.2.1",
+	"visibility": "hide" 	
+},{
+	"qType": "radiosReact",
+	"question": "Do you feel the pill is causing you any side effects?",
+	"questionNumber": "Q2",
+	"consequence": "Q2.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please provide further details.",
+	"questionNumber": "Q2.1",
+	"visibility": "hide" 	
+},{
+	"qType": "radiosReact",
+	"question": "Are you currently taking any medication, or have you recently finished a course of medication?",
+	"questionNumber": "Q3",
+	"consequence": "Q3.1" 	
+},{
+	"qType": "textbox",
+	"question": "What is the name of the medication? Why do you take it?",
+	"questionNumber": "Q3.1",
+	"visibility": "hide" 	
+},{
+	"qType": "radiosReact",
+	"question": "Are you allergic to any medicines or other substances (e.g peanuts/soya)?",
+	"questionNumber": "Q4",
+	"consequence": "Q4.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please provide more details.",
+	"questionNumber": "Q4.1",
+	"visibility": "hide" 	
+}]

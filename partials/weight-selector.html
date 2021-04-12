@@ -1,0 +1,14 @@
+<div id="imperialBlockW" class="numberBlock">
+	<input type="number" placeholder="e.g. 10" name="{{ ques.questionNumber }}" id="{{ ques.questionNumber }}stones" min="6" data-value="0" ng-model="BMI.stonesWeight" ng-change="imperialPrep(); formInputChange($event);"><span class="unit-abbr ng-binding">st.</span>
+	<input type="number" placeholder="e.g. 3" name="{{ ques.questionNumber }}" id="{{ ques.questionNumber }}pounds" max="13" min="0" data-value="0" ng-model="BMI.poundsWeight" ng-change="imperialPrep(); formInputChange($event);"><span class="unit-abbr ng-binding">lbs.</span>
+</div>
+<div id="metricBlockW" class="numberBlock hide">
+	<input type="number" placeholder="e.g. 75" id="{{ ques.questionNumber }}kg" min="38" max="300" class="metric metricWeight" data-value="0" ng-model="BMI.metricWeight" ng-change="bmiCalc(); formInputChange($event);"><span class="unit-abbr ng-binding">kg</span>
+</div>
+
+<label for="{{ ques.questionNumber }}Y">Metric </label>
+<input type="radio" value="metric" name="{{ ques.questionNumber }}" id="{{ ques.questionNumber }}Y" ng-click="metricSwitcher('metricBlockW')" class="metricRadio" />
+
+<label for="{{ ques.questionNumber }}N">Imperial </label>
+<input type="radio" value="imperial" name="{{ ques.questionNumber }}" id="{{ ques.questionNumber }}N" ng-click="metricSwitcher('imperialBlockW')" />
+<p>Please enter a number</p>

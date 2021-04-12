@@ -1,0 +1,58 @@
+[{
+	"qType": "height",
+	"question": "Can you tell us your height?",
+	"questionNumber": "Q5"
+},{
+	"qType": "weight",
+	"question": "Can you tell us your current weight?",
+	"questionNumber": "Q6"
+},{
+	"qType": "selectbox",
+	"question": "Do you drink alcohol?",
+	"optionsStack": [ {"option": "No"}, {"option": "Occasionally"}, {"option": "Under 1 beer/2 glass wine/day"}, {"option": "Over 2 beer/3 glass wine/day"} ],
+	"questionNumber": "Q7"
+},{
+	"qType": "radios",
+	"question": "Do you smoke?",
+	"questionNumber": "Q8"
+},{
+	"qType": "radiosReact",
+	"question": "Are you currently taking any medication, or have you recently finished a course of medication?",
+	"questionNumber": "Q9",
+	"consequence": "Q9.1" 	
+},{
+	"qType": "textbox",
+	"question": "What is the name of the medication? Why do you take it?",
+	"questionNumber": "Q9.1",
+	"visibility": "hide" 	
+},{
+	"qType": "radiosReact",
+	"question": "Are you taking an alpha-blocker to help reduce blood pressure, or to treat prostate symptoms (e.g. Alfuzosin, Prazosin, Doxazosin, Tamsulosin)?",
+	"questionNumber": "Q10",
+	"consequence": "Q10.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please provide more details: what drug are you taking, and what dose? And why are you taking it?",
+	"questionNumber": "Q10.1",
+	"visibility": "hide" 	
+},{
+	"qType": "radiosReact",
+	"question": "Do you have a GTN spray/tablets from your doctor in case of chest pain? Or do you take Isosorbide mononitrate, Isosorbide dinitrate or Nicorandil?",
+	"questionNumber": "Q11",
+	"consequence": "Q11.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please provide the details of any of these medications that you are taking, or that you have in case of chest pain.",
+	"questionNumber": "Q11.1",
+	"visibility": "hide" 	
+},{
+	"qType": "radiosReact",
+	"question": "Are you allergic to any medicines or other substances (e.g peanuts/soya)?",
+	"questionNumber": "Q12",
+	"consequence": "Q12.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please provide more details.",
+	"questionNumber": "Q12.1",
+	"visibility": "hide" 	
+}]

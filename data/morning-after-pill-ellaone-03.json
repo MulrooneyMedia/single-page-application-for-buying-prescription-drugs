@@ -1,0 +1,31 @@
+[{
+	"qType": "radiosReact",
+	"question": "Communication between doctors involved in your treatment helps provide the safest and most effective healthcare. Are you happy for us to inform your GP about this treatment?",
+	"questionNumber": "Q16",
+	"consequence": "Q16.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please provide us with the contact details of your GP, in particular their name and fax number (name, house number, street, town, postcode, fax number).",
+	"questionNumber": "Q16.1",
+	"visibility": "hide" 	
+},{
+	"qType": "checkboxTerms",
+	"destination1":"https://onlinedoctor.superdrug.com/terms.html",
+	"destination2":"https://onlinedoctor.superdrug.com/privacy.html",
+	"questionNumber": "Q17"
+},{
+	"qType": "radiosReact",
+	"question": "To ensure that you receive your pill quickly, we may want to contact you about your order. Are you happy for us to contact you by phone?",
+	"questionNumber": "Q18",
+	"consequence": "Q18.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please enter your phone number (including extension).",
+	"questionNumber": "Q18.1",
+	"visibility": "hide" 	
+},{
+	"qType": "bmi",
+	"question": "The patient's BMI or weight was too high for EllaOne",
+	"questionNumber": "Q19"
+}
+]

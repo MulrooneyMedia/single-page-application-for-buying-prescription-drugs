@@ -1,0 +1,17 @@
+[{
+	"qType": "selectbox",
+	"question": "Please tell us why you need treatment for Chlamydia?",
+	"optionsStack": [ {"option": "GP diagnosed this infection","oc": false}, {"option": "GUM clinic diagnosed this infection","oc": false}, {"option": "Informed by a sexual partner that they have Chlamydia","oc": false}, {"option": "Positive home test kit","oc": false}, {"option": "Other reasons","oc": true} ],
+	"questionNumber": "Q1",
+	"consequence": "Q1.1"
+},{
+	"qType": "textbox",
+	"question": "Please provide more details.",
+	"questionNumber": "Q1.1",
+	"visibility": "hide"
+},{
+	"qType": "checkboxMultiple",
+	"question": "Please let us know if you have any of the following symptoms? (You don't have to have symptoms to get treatment).",
+	"optionsStack": [ {"option": "No symptoms"}, {"option": "Pain when passing urine"}, {"option": "Genital Discharge"}, {"option": "Fever (more than 38 degrees)"}, {"option": "Pain in your lower abdomen"}, {"option": "Pain or discharge from your back passage"}, {"option": "Testicular pain or swelling (men only)"}, {"option": "Abdominal pain when having sex (women only)"}, {"option": "Abnormal bleeding (women only)"} ],
+	"questionNumber": "Q2"
+}]

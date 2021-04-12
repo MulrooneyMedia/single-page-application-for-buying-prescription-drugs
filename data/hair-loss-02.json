@@ -1,0 +1,75 @@
+[{
+	"qType": "radiosReact",
+	"question": "Are you currently taking any medication, or have you recently finished a course of medication?",
+	"questionNumber": "Q7",
+	"consequence": "Q7.1" 	
+},{
+	"qType": "textbox",
+	"question": "What is the name of the medication? Why do you take it?",
+	"questionNumber": "Q7.1",
+	"visibility": "hide" 	
+},{
+	"qType": "radiosReact",
+	"question": "Are you experiencing or have you ever experienced depression, anxiety or panic disorders?",
+	"questionNumber": "Q8",
+	"consequence": "Q8.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please provide more details. Have you ever required psychological treatment or medication?",
+	"questionNumber": "Q8.1",
+	"visibility": "hide" 	
+},{
+	"qType": "radiosReact",
+	"question": "Are you allergic to any medicines or other substances (e.g peanuts/soya)?",
+	"questionNumber": "Q9",
+	"consequence": "Q9.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please provide more details.",
+	"questionNumber": "Q9.1",
+	"visibility": "hide" 	
+},{
+	"qType": "radiosReact",
+	"question": "Do you have any conditions affecting your liver, kidneys, prostate or urinary system?",
+	"questionNumber": "Q10",
+	"consequence": "Q10.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please provide more details (Your diagnosis, treatment, current kidney or liver function etc).",
+	"questionNumber": "Q10.1",
+	"visibility": "hide" 	
+},{
+	"qType": "radiosReact",
+	"question": "Have you been diagnosed with any type of cancer?",
+	"questionNumber": "Q11",
+	"consequence": "Q11.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please provide more details (what type of cancer, what treatment you received and when this was).",
+	"questionNumber": "Q11.1",
+	"visibility": "hide" 	
+},{
+	"qType": "radiosReact",
+	"question": "Have you been diagnosed with any skin conditions?",
+	"questionNumber": "Q12",
+	"consequence": "Q12.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please provide more details, including your diagnosis, treatment and what part of the skin is affected.",
+	"questionNumber": "Q12.1",
+	"visibility": "hide" 	
+},{
+	"qType": "radiosReact",
+	"question": "Do you have any other health conditions you think we should know about? (Including mental illness, operations, severe infections or trauma).",
+	"questionNumber": "Q13",
+	"consequence": "Q13.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please provide more details.",
+	"questionNumber": "Q13.1",
+	"visibility": "hide" 	
+},{
+	"qType": "radios",
+	"question": "Can you always get and maintain an erection when you want one?",
+	"questionNumber": "Q14"
+}]

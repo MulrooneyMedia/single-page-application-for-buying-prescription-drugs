@@ -1,0 +1,102 @@
+[{
+	"qType": "radiosReact",
+	"question": "Have you ever had a stroke or experienced any heart condition?",
+	"questionNumber": "Q13",
+	"consequence": "Q13.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please provide more details: what happened, and when? Are you on any treatment?",
+	"questionNumber": "Q13.1",
+	"visibility": "hide" 	
+},{
+	"qType": "radiosReact",
+	"question": "Do you ever experience low blood pressure, dizziness, faints, or collapses?",
+	"questionNumber": "Q14",
+	"consequence": "Q14.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please provide more details.",
+	"questionNumber": "Q14.1",
+	"visibility": "hide" 	
+},{
+	"qType": "radiosReact",
+	"question": "Do you have any of the following: Peyronie’s disease, previous injuries to the penis, inability to retract foreskin (if not circumcised)?",
+	"questionNumber": "Q17",
+	"consequence": "Q17.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please provide more details.",
+	"questionNumber": "Q17.1",
+	"visibility": "hide" 	
+},{
+	"qType": "radiosReact",
+	"question": "Do you have a bend in your penis?",
+	"questionNumber": "Q18",
+	"consequence": "Q18.1" 	
+},{
+	"qType": "selectbox",
+	"question": "Please tick if any of the following apply to you.",
+	"optionsStack": [ {"option": "The bend in my penis is due to trauma/injury"}, {"option": "I feel pain during intercourse because of the bend"}, {"option": "The bend is due to scarring tissue"}, {"option": "None of the above"} ],
+	"questionNumber": "Q18.1",
+	"visibility": "hide" 	
+},{
+	"qType": "radiosReact",
+	"question": "Have you ever had a condition affecting your spine, pelvis or genital area (such as spinal injury, incontinence, abscess)?",
+	"questionNumber": "Q19",
+	"consequence": "Q19.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please provide further details (what happened, when did it happen, do you have treatment).",
+	"questionNumber": "Q19.1",
+	"visibility": "hide" 	
+},{
+	"qType": "radiosReact",
+	"question": "Have you ever been advised by a doctor to not have sex or do vigorous exercise?",
+	"questionNumber": "Q20",
+	"consequence": "Q20.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please provide more details.",
+	"questionNumber": "Q20.1",
+	"visibility": "hide" 	
+},{
+	"qType": "radiosReact",
+	"question": "Do you have any conditions affecting your kidneys, urinary system, digestive system or liver?",
+	"questionNumber": "Q21",
+	"consequence": "Q21.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please provide more details.",
+	"questionNumber": "Q21.1",
+	"visibility": "hide" 	
+},{
+	"qType": "radiosReact",
+	"question": "Do you have a stomach or duodenal ulcer (peptic ulcer)?",
+	"questionNumber": "Q22",
+	"consequence": "Q22.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please provide more details.",
+	"questionNumber": "Q22.1",
+	"visibility": "hide" 	
+},{
+	"qType": "radiosReact",
+	"question": "Do you have either of these eye conditions: non-arteritic ischaemic optic neuropathy (NAION) or a retinal problem such as retinitis pigmentosa?",
+	"questionNumber": "Q23",
+	"consequence": "Q23.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please provide more details.",
+	"questionNumber": "Q23.1",
+	"visibility": "hide" 	
+},{
+	"qType": "radiosReact",
+	"question": "Do you have any other conditions you think we should know about (e.g. neurological conditions, leukaemia/myeloma, sickle cell disease, metabolic problems)?",
+	"questionNumber": "Q25",
+	"consequence": "Q25.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please provide details of all conditions.",
+	"questionNumber": "Q25.1",
+	"visibility": "hide" 	
+}]

@@ -1,0 +1,60 @@
+[{
+	"qType": "selectbox",
+	"question": "Do you smoke?",
+	"optionsStack": [ {"option": "Yes","oc": false}, {"option": "No","oc": false}, {"option": "I used to smoke","oc": true} ],
+	"questionNumber": "Q15",
+	"consequence": "Q15.1" 	
+},{
+	"qType": "selectbox",
+	"question": "When did you give up smoking?",
+	"optionsStack": [ {"option": "Within the last year"}, {"option": "More than a year ago"} ],
+	"questionNumber": "Q15.1",
+	"visibility": "hide" 	
+},{
+	"qType": "radiosReact",
+	"question": "Has your blood pressure been checked in the last 12 months?",
+	"questionNumber": "Q16",
+	"consequence": "Q16.1" 	
+},{
+	"qType": "selectbox",
+	"question": "What was the reading?",
+	"optionsStack": [ {"option": "Above 140/90","oc": true}, {"option": "Below 140/90","oc": false} ],
+	"questionNumber": "Q16.1",
+	"consequence": "Q16.2", 	
+	"visibility": "hide" 	
+},{
+	"qType": "textbox",
+	"question": "What was the reading?",
+	"questionNumber": "Q16.2",
+	"visibility": "hide" 	
+},{
+	"qType": "radiosReact",
+	"question": "Have you ever had high blood pressure, including during a pregnancy?",
+	"questionNumber": "Q17",
+	"consequence": "Q17.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please provide more details.",
+	"questionNumber": "Q17.1",
+	"visibility": "hide" 	
+},{
+	"qType": "radiosReact",
+	"question": "Are you pregnant or trying to become pregnant?",
+	"questionNumber": "Q18",
+	"consequence": "Q18.1" 	
+},{
+	"qType": "textbox",
+	"question": "How many weeks pregnant are you?",
+	"questionNumber": "Q18.1",
+	"visibility": "hide" 	
+},{
+	"qType": "radiosReact",
+	"question": "Are you breastfeeding? Or have you given birth in the last 3 weeks?",
+	"questionNumber": "Q19",
+	"consequence": "Q19.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please provide more details.",
+	"questionNumber": "Q19.1",
+	"visibility": "hide" 	
+}]

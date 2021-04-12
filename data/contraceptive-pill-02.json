@@ -1,0 +1,89 @@
+[{
+	"qType": "height",
+	"question": "Can you tell us your height?",
+	"questionNumber": "Q5"
+},{
+	"qType": "weight",
+	"question": "Can you tell us your current weight?",
+	"questionNumber": "Q6"
+},{
+	"qType": "radiosReact",
+	"question": "Have you ever had migraines?",
+	"questionNumber": "Q7",
+	"consequence": "Q7.1" 	
+},{
+	"qType": "textbox",
+	"question": "Who diagnosed your migraines? How long have you had them?",
+	"questionNumber": "Q7.1",
+	"visibility": "hide" 	
+},{
+	"qType": "radiosReact",
+	"question": "Do you ever get severe headaches at the front/side of your head, with nausea/vomiting, increased sensitivity to light or sound?",
+	"questionNumber": "Q8",
+	"consequence": "Q8.1" 	
+},{
+	"qType": "textbox",
+	"question": "How long have you been experiencing these? Have you seen a doctor about them?",
+	"questionNumber": "Q8.1",
+	"visibility": "hide" 	
+},{
+	"qType": "radiosReact",
+	"question": "Have you ever had a heart attack, stroke, or high cholesterol?",
+	"questionNumber": "Q9",
+	"consequence": "Q9.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please provide more details, including dates and any treatments.",
+	"questionNumber": "Q9.1",
+	"visibility": "hide" 	
+},{
+	"qType": "radiosReact",
+	"question": "Do you have any conditions affecting your kidneys or liver (including hepatitis or tumours)?",
+	"questionNumber": "Q10",
+	"consequence": "Q10.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please provide more details, including dates and treatments.",
+	"questionNumber": "Q10.1",
+	"visibility": "hide" 	
+},{
+	"qType": "radiosReact",
+	"question": "Do you have any complications from diabetes (e.g. with your eyes, kidneys or sensation in your hands/feet)?",
+	"questionNumber": "Q11",
+	"consequence": "Q11.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please provide more details.",
+	"questionNumber": "Q11.1",
+	"visibility": "hide" 	
+},{
+	"qType": "radiosReact",
+	"question": "Have you ever had any form of cancer (e.g. breast, liver)?",
+	"questionNumber": "Q12",
+	"consequence": "Q12.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please provide more details, including dates and treatments.",
+	"questionNumber": "Q12.1",
+	"visibility": "hide" 	
+},{
+	"qType": "radiosReact",
+	"question": "Have you or anyone in your family ever had a blood clot (e.g. DVT or PE); or have you had major surgery in the last 3 weeks?",
+	"questionNumber": "Q13",
+	"consequence": "Q13.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please provide more details.",
+	"questionNumber": "Q13.1",
+	"visibility": "hide" 	
+},{
+	"qType": "radiosReact",
+	"question": "Do you have any other health conditions you think we should know about (e.g. SLE, Raynauds, gallbladder problems or inflammatory bowel disease)?",
+	"questionNumber": "Q14",
+	"consequence": "Q14.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please list all medical conditions.",
+	"questionNumber": "Q14.1",
+	"visibility": "hide" 	
+}]

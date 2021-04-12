@@ -1,0 +1,70 @@
+[{
+	"qType": "selectbox",
+	"question": "Why do you need emergency contraception?",
+	"optionsStack": [ {"option": "Missed pill","oc": true}, {"option": "Condom broke/slipped off","oc": false}, {"option": "Recent sex without contraception","oc": false}, {"option": "Other","oc": true} ],
+	"questionNumber": "Q1",
+	"consequence": "Q1.1" 	
+},{
+	"qType": "textbox",
+	"question": "If you missed a pill: how many hours later did you take it? Or how many pills did you forget? If you have other reasons- please let us know which they are.",
+	"questionNumber": "Q1.1",
+	"visibility": "hide" 	
+},{
+	"qType": "radiosReact",
+	"question": "Are you currently taking the pill or any other form of contraception?",
+	"questionNumber": "Q2",
+	"consequence": [ {"cq": "Q2.1"}, {"cq": "Q2.2"} ] 	
+},{
+	"qType": "textbox",
+	"question": "Can you tell us which pill you are taking?",
+	"questionNumber": "Q2.1",
+	"visibility": "hide" 	
+},{
+	"qType": "checkbox",
+	"question": "The latest national guideline (FSRH) warns that EllaOne's ability to prevent pregnancy could potentially be reduced if a woman has taken any hormonal contraception (eg the pill/mini pill) in the 7 days before taking EllaOne. Please tick to confirm that you understand this and are proceeding with your request for EllaOne.",
+	"questionNumber": "Q2.2",
+	"visibility": "hide" 	
+},{
+	"qType": "date",
+	"question": "What date did you have unprotected sex?",
+	"questionNumber": "Q3"
+},{
+	"qType": "selectbox",
+	"question": "At what time did the occasion of unprotected sex happen?",
+	"optionsStack": [ {"option": "0000 - 0100"}, {"option": "0100 - 0200"}, {"option": "0200 - 0300"}, {"option": "0300 - 0400"}, {"option": "0400 - 0500"}, {"option": "0500 - 0600"}, {"option": "0600 - 0700"}, {"option": "0700 - 0800"}, {"option": "0800 - 0900"}, {"option": "0900 - 1000"}, {"option": "1000 - 1100"}, {"option": "1100 - 1200"}, {"option": "1200 - 1300"}, {"option": "1300 - 1400"}, {"option": "1400 - 1500"}, {"option": "1500 - 1600"}, {"option": "1600 - 1700"}, {"option": "1700 - 1800"}, {"option": "1800 - 1900"}, {"option": "1900 - 2000"}, {"option": "2000 - 2100"}, {"option": "2100 - 2200"}, {"option": "2200 - 2300"}, {"option": "2300 - 0000"} ],
+	"questionNumber": "Q4"
+},{
+	"qType": "radiosReact",
+	"question": "Since your last period, did you have any other unprotected sex or condom failures?",
+	"questionNumber": "Q5",
+	"consequence": "Q5.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please list all episodes.",
+	"questionNumber": "Q5.1",
+	"visibility": "hide" 	
+},{
+	"qType": "checkbox",
+	"question": "Please confirm that you are currently not pregnant",
+	"questionNumber": "Q6"
+},{
+	"qType": "radiosReact",
+	"question": "Have you ever taken an emergency contraception before?",
+	"questionNumber": "Q7",
+	"consequence": "Q7.1" 	
+},{
+	"qType": "textbox",
+	"question": "Please provide more details. Did you have any side effects such as nausea, rash, etc.?",
+	"questionNumber": "Q7.1",
+	"visibility": "hide" 	
+},{
+	"qType": "radiosReact",
+	"question": "Have you taken an emergency contraception since your last period?",
+	"questionNumber": "Q8",
+	"consequence": "Q8.1" 	
+},{
+	"qType": "textbox",
+	"question": "When did you take the emergency contraception? When was your last period?",
+	"questionNumber": "Q8.1",
+	"visibility": "hide" 	
+}]

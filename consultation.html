@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en" ng-app='synergixPrototypeApp'>
+<head>
+	<meta charset="utf-8">
+	<title>Synergix Prototype</title>
+	<meta name="description" content="Prototype">
+	<meta name="author" content="Synergix">
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/stylesheets/style.css?v=1.0">
+</head>
+
+<body ng-controller="PageController">
+	<synergix-prototype-header></synergix-prototype-header>
+
+	<div class="site-main">
+		<div class="section-questions" id="questionBlock">
+			<div class="row">
+				<header class="steps-navigation qa-steps-navigation steps-navigation-push-down">
+					<div class="title assessmentHeader"></div>
+					<ol class="stepslist">
+						<li class="stepitem -active steps">Assessment<br><small>Step 3 of 3</small></li>
+						<li class="stepitem">Choose treatment</li>
+						<li class="stepitem">Your Order</li>
+						<li class="stepitem">Payment</li>
+					</ol>
+				</header>
+			</div>
+		
+			<div class="header">
+				<h3>Assessment step <span id="stageNum">1</span> of <span id="totalStagesNum"></span></h3>
+				<p class="description assessmentMsg"></p>
+				<hr />
+			</div>
+			<div ng-repeat="ques in questionStack" class="question {{ ques.visibility }}" id="{{ ques.questionNumber }}ID">
+				<label class="query" for="{{ ques.questionNumber }}">
+					<ng-include src="getQuestion(ques.qType)" ></ng-include>
+					<br />
+					<img alt="accompanying image for medical question" ng-src="{{getImagePath(ques.image)}}" />
+				</label>
+				<div class="answer">
+					<ng-include src="getQuesType(ques.qType,ques.optionsStack)" ></ng-include>
+					<span class="-has-success hide"></span>
+					<span class="requireClass hide">Required</span>
+				</div>
+			</div>
+		</div>
+		
+
+		<div id="intermediatePages" class="hide">
+			<ng-include src="getIntermediatePartial()" ></ng-include>
+		</div>
+		
+		<div id="outcomeDisplay" class="hide">
+			<!-- NEW ELEMENT: Demo header -->		
+			<div class="outcomeViewGP"><span>Demo only</span><span class="outcomeViewTitle">GP View: Assessment outcome</span><span>Demo only</span></div>
+			<h1><i></i><span id="outcomeHeader">Outcome X:</span></h1>
+			<h2 id="flaggedHeader">Flagged Assessment Questions</h2>
+			<div class="flaggedQuestions" ng-repeat="problem in outcomeObj">
+				<div class="flaggedQuestion">{{problem.question}}</div> 
+				<div class="flaggedAnswer">{{problem.value}}</div>
+			</div>
+			<div class="recommendedNext"><strong>Recommended Next Step:</strong> <span id="outcomeNextStep"></span></div>
+			<div class="buttonContainer">
+				<button><span>View full assessment</span></button>
+				
+				<button class="button2"><span id="outcomeButton2"></span></button>
+				<!-- NEW ELEMENT: 3rd button -->		
+				<button class="button3"><span>Issue prescription</span></button>		
+			</div>
+			<div class="buttonContainer">
+					<a class='bs2 btn btn-outline-success homeCta' href='index.html'>Return to home page</a>
+			</div>	
+		</div>
+
+		<div class="bottom-navigation ng-isolate-scope" id="bottomNav">
+			<hr>
+			<div class="row">
+				<div class="col-xs-6 col-sm-3 ng-scope col-xs-push-6 col-sm-push-9">
+					<button type="button" id="nextButton" class="bs2 btn btn-success btn-block ng-scope ng-isolate-scope" ng-click="judgement()">
+					Next
+					</button>
+				</div>
+				<div class="col-xs-6 col-sm-2 col-xs-pull-6 col-sm-pull-3">
+					<button type="button" id="backButton" class="btn btn-default hide" ng-click="backwards()">Back</button>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<synergix-prototype-footer></synergix-prototype-footer>
+
+</body>
+<!-- <script src="scripts/libs/angular1.5/angular.min.js" ></script> -->
+<script src="scripts/libs/angular1.5/angular.js" ></script>
+<!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>-->
+<script src="scripts/libs/angular-loadscript.js" ></script> <!--For lazy loading of JS code for partials-->
+<script src="scripts/apps.js"></script>
+<script src="scripts/controllers.js"></script>
+<script src="scripts/directives.js"></script>
+</html>

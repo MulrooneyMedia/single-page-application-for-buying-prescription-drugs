@@ -1,0 +1,5 @@
+<label for="{{ ques.questionNumber }}Y">Yes </label>
+<input type="radio" value="yes" name="{{ ques.questionNumber }}" id="{{ ques.questionNumber }}Y" ng-click="reveal( ques.consequence, true )" ng-model="inputChange" ng-change="formInputChange($event)" />
+
+<label for="{{ ques.questionNumber }}N">No </label>
+<input type="radio" value="no" name="{{ ques.questionNumber }}" id="{{ ques.questionNumber }}N" ng-click="reveal( ques.consequence, false )" ng-model="inputChange" ng-change="formInputChange($event)" />
